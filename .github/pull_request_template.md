@@ -1,44 +1,15 @@
 ## Summary
+<!-- 1-3 sentences. What changed and why? -->
 
-<!-- What changed? -->
-
-## Why
-
-<!-- Why is this needed? -->
-
-## Type of change
-
-- [ ] feat
-- [ ] fix
-- [ ] refactor
-- [ ] docs
-- [ ] test
-- [ ] chore
-- [ ] ci
-- [ ] build
-- [ ] perf
-
-## Conventional Commit
-
-<!-- Paste commit header(s), e.g. feat(api): add memory lookup -->
-
-## Testing
-
+## Validation
 - [ ] Tests pass locally
-- [ ] Coverage remains >= 70%
-- [ ] Added/updated tests for changed behavior
+- [ ] Coverage >= 70% (where applicable)
+- [ ] CI checks pass
 
-## CI
-
-- [ ] CI passes
-- [ ] No Docker publish change from dev (publish remains main-only)
-
-## Risks / Rollback
-
-<!-- Any migration, compatibility, or rollback concerns? -->
+## Notes (optional)
+<!-- Risks, rollout notes, or migration details if relevant -->
 
 ## Checklist
-
-- [ ] PR targets correct branch (`dev` for feature work, `main` for promotion)
-- [ ] Docs updated (if needed)
+- [ ] PR title follows conventional style (`type(scope): summary`)
+- [ ] Target branch is correct (`dev` for feature work, `main` for promotion)
 - [ ] No secrets committed

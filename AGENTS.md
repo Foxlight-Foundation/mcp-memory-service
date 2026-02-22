@@ -36,11 +36,15 @@ Breaking changes:
 ## Pull Request Expectations
 
 - Keep PRs focused and reasonably small.
-- Include:
-  - What changed
-  - Why it changed
-  - How it was tested
-  - Risks/rollback notes if relevant
+- Use concise, human PR titles (avoid generic/bot-like wording).
+- Preferred PR title pattern:
+  - `<type(scope)>: short outcome`
+  - Example: `ci(repo): enforce commit style and branch gates`
+- PR description style:
+  - 1 short summary paragraph
+  - "Validation" section (tests/checks run)
+  - "Notes" only if truly needed
+- Avoid long bullet dumps unless requested.
 - Update docs if behavior or setup changes.
 
 ## CI/CD Rules
