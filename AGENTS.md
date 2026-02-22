@@ -37,15 +37,20 @@ Breaking changes:
 
 - Keep PRs focused and reasonably small.
 - Use concise, human PR titles (avoid generic/bot-like wording).
-- Preferred PR title pattern:
+- PR identity convention:
+  - **Kite-authored PRs** must start with: `kite: `
+  - **Human-authored PRs** may optionally start with: `fren: `
+- Preferred PR title format after identity prefix:
   - `<type(scope)>: short outcome`
-  - Example: `ci(repo): enforce commit style and branch gates`
+  - Example: `kite: ci(repo): enforce commit style and branch gates`
 - PR description style:
   - 1 short summary paragraph
+  - `Author: Kite` or `Author: fren`
   - "Validation" section (tests/checks run)
   - "Notes" only if truly needed
 - Avoid long bullet dumps unless requested.
 - Update docs if behavior or setup changes.
+- Default flow is **feature -> dev**. Do not open feature PRs directly to `main`.
 
 ## CI/CD Rules
 

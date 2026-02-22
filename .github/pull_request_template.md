@@ -1,6 +1,8 @@
 ## Summary
 <!-- 1-3 sentences. What changed and why? -->
 
+Author: <!-- Kite or fren -->
+
 ## Validation
 - [ ] Tests pass locally
 - [ ] Coverage >= 70% (where applicable)
@@ -16,6 +18,6 @@
 <!-- Risks, rollout notes, or migration details if relevant -->
 
 ## Checklist
-- [ ] PR title follows conventional style (`type(scope): summary`)
-- [ ] Target branch is correct (`dev` for feature work, `main` for promotion)
+- [ ] PR title follows convention (`kite: type(scope): summary` for Kite PRs)
+- [ ] Target branch is correct (`dev` for feature work, `main` only for promotion PRs from dev)
 - [ ] No secrets committed
