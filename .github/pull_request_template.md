@@ -6,6 +6,12 @@
 - [ ] Coverage >= 70% (where applicable)
 - [ ] CI checks pass
 
+## AI Review Triage (if applicable)
+<!-- Summarize AI review comments and your decision. -->
+- Accepted:
+- Discussed:
+- Rejected (with rationale):
+
 ## Notes (optional)
 <!-- Risks, rollout notes, or migration details if relevant -->
 
