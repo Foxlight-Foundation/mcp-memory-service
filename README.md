@@ -2,6 +2,10 @@
 
 Local-first memory service with HTTP API, designed for Foxlight/OpenClaw workflows.
 
+## Attribution
+
+This project is a Foxlight implementation inspired by the broader MCP memory ecosystem, especially ideas and deployment patterns from doobidoo/mcp-memory-service.
+
 ## Endpoints
 - `GET /api/health`
 - `POST /api/memories`
@@ -23,3 +27,7 @@ pytest --cov=. --cov-fail-under=70
 docker build -t mcp-memory-service .
 docker run -p 8000:8000 mcp-memory-service
 ```
+
+## License
+
+MIT (see `LICENSE`).
